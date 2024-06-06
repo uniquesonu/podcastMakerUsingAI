@@ -58,7 +58,7 @@ export type VoiceType =
   | "shimmer";
 
 export interface GeneratePodcastProps {
-  voiceType: VoiceType;
+  voiceType: any;
   setAudio: Dispatch<SetStateAction<string>>;
   audio: string;
   setAudioStorageId: Dispatch<SetStateAction<Id<"_storage"> | null>>;
